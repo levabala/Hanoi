@@ -29,6 +29,8 @@ namespace HanoiVisual
             InitializeComponent();            
 
             reset();
+
+            Text = "Space - next step, R - reset";
         }
 
         private void reset()
